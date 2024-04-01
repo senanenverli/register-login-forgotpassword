@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AfKhq+JFhV9SOGygqEextP+pMN77gtfFeT+Q0YR7M0g=",
+  "Hash": "5Ru0nw2aix+Pb3h7YRvv4H2InDBRo41XCQ+vOp3QMjs=",
   "Source": "WebApplication5",
   "BasePath": "_content/WebApplication5",
   "Mode": "Default",
@@ -4894,6 +4894,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\elekb\\Downloads\\New folder\\WebApplication5\\WebApplication5\\wwwroot\\assets\\templates\\index.html",
+      "SourceId": "WebApplication5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\elekb\\Downloads\\New folder\\WebApplication5\\WebApplication5\\wwwroot\\",
+      "BasePath": "_content/WebApplication5",
+      "RelativePath": "assets/templates/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\templates\\index.html"
     },
     {
       "Identity": "C:\\Users\\elekb\\Downloads\\New folder\\WebApplication5\\WebApplication5\\wwwroot\\css\\site.css",

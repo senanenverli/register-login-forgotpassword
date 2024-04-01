@@ -45,4 +45,5 @@ public class EmailHelper
         await smtp.SendAsync(email);
         smtp.Disconnect(true);
     }
+
 }

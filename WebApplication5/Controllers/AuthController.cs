@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
+using WebApplication5.Helpers;
 using WebApplication5.Helpers.Enums;
 using WebApplication5.Models;
 using WebApplication5.ViewModel;
+using WebApplication5.ViewModels;
 
 namespace WebApplication5.Controllers;
 
@@ -125,7 +126,8 @@ public class AuthController : Controller
         string body = content.Replace("[link]", link);
 
 
-
+        EmailHelper emailHelper = new EmailHelper(_configuration);
+        await emailHelper.SendEmailAsync(new MailRequest { ToEmail = user.Email, Subject = "ResetPassword", Body = body});
 
 
         return RedirectToAction(nameof(Login));

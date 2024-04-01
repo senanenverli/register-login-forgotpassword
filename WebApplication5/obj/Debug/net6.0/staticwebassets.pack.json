@@ -1149,6 +1149,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
     },
     {
+      "Id": "C:\\Users\\elekb\\Downloads\\New folder\\WebApplication5\\WebApplication5\\wwwroot\\assets\\templates\\index.html",
+      "PackagePath": "staticwebassets\\assets\\templates\\index.html"
+    },
+    {
       "Id": "C:\\Users\\elekb\\Downloads\\New folder\\WebApplication5\\WebApplication5\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
